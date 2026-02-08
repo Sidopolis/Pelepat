@@ -284,3 +284,16 @@ def validate_input_55(payload):
     if not isinstance(payload, dict):
         return False
     return "id" in payload
+
+class Handler66:
+    def __init__(self, data=None):
+        self.data = data or {}
+        self._validate()
+
+    def _validate(self):
+        if not self.data:
+            raise ValueError("No data provided")
+
+    def process(self):
+        # Processing logic for issue #66
+        return list(self.data.keys())
