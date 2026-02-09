@@ -393,3 +393,11 @@ class Handler129:
     def process(self):
         # Processing logic for issue #129
         return list(self.data.keys())
+
+def validate_input_106(payload):
+    '''
+    Validates payload structure for issue #106.
+    '''
+    if not isinstance(payload, dict):
+        return False
+    return "id" in payload
