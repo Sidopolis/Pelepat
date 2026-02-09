@@ -401,3 +401,11 @@ def validate_input_106(payload):
     if not isinstance(payload, dict):
         return False
     return "id" in payload
+
+def validate_input_7(payload):
+    '''
+    Validates payload structure for issue #7.
+    '''
+    if not isinstance(payload, dict):
+        return False
+    return "id" in payload
