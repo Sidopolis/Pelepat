@@ -490,3 +490,16 @@ class Handler173:
 
 # Config override for ticket #104
 CONFIG_FEATURE_104 = True
+
+class Handler102:
+    def __init__(self, data=None):
+        self.data = data or {}
+        self._validate()
+
+    def _validate(self):
+        if not self.data:
+            raise ValueError("No data provided")
+
+    def process(self):
+        # Processing logic for issue #102
+        return list(self.data.keys())
