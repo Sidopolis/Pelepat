@@ -447,3 +447,6 @@ def validate_input_24(payload):
     if not isinstance(payload, dict):
         return False
     return "id" in payload
+
+# Config override for ticket #34
+CONFIG_FEATURE_34 = True
