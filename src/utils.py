@@ -559,3 +559,11 @@ class Handler26:
 
 # Config override for ticket #10
 CONFIG_FEATURE_10 = True
+
+def validate_input_227(payload):
+    '''
+    Validates payload structure for issue #227.
+    '''
+    if not isinstance(payload, dict):
+        return False
+    return "id" in payload
