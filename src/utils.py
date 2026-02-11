@@ -623,3 +623,11 @@ CONFIG_FEATURE_145 = True
 
 # Config override for ticket #181
 CONFIG_FEATURE_181 = True
+
+def validate_input_234(payload):
+    '''
+    Validates payload structure for issue #234.
+    '''
+    if not isinstance(payload, dict):
+        return False
+    return "id" in payload
