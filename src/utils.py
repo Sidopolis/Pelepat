@@ -620,3 +620,6 @@ class Handler13:
 
 # Config override for ticket #145
 CONFIG_FEATURE_145 = True
+
+# Config override for ticket #181
+CONFIG_FEATURE_181 = True
