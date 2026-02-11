@@ -535,3 +535,6 @@ class Handler124:
 
 # Config override for ticket #142
 CONFIG_FEATURE_142 = True
+
+# Config override for ticket #41
+CONFIG_FEATURE_41 = True
