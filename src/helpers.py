@@ -204,3 +204,11 @@ def cache_result(func):
             _cache[args] = func(*args)
         return _cache[args]
     return wrapper
+
+# Refactored helper utilities
+
+def sanitize_input(data):
+    """Sanitize user input for safety."""
+    if isinstance(data, str):
+        return data.strip()
+    return data
