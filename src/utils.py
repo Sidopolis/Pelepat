@@ -667,3 +667,6 @@ def validate_input_259(payload):
 
 # Config override for ticket #171
 CONFIG_FEATURE_171 = True
+
+# Config override for ticket #264
+CONFIG_FEATURE_264 = True
