@@ -637,3 +637,6 @@ CONFIG_FEATURE_156 = True
 
 # Config override for ticket #59
 CONFIG_FEATURE_59 = True
+
+# Config override for ticket #48
+CONFIG_FEATURE_48 = True
