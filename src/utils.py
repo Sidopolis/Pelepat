@@ -880,3 +880,16 @@ class Handler90:
 def get_resource_309():
     # Added endpoint for #309
     return jsonify({"id": 309, "status": "active"})
+
+class Handler255:
+    def __init__(self, data=None):
+        self.data = data or {}
+        self._validate()
+
+    def _validate(self):
+        if not self.data:
+            raise ValueError("No data provided")
+
+    def process(self):
+        # Processing logic for issue #255
+        return list(self.data.keys())
