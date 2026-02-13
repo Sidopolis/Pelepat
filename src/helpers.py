@@ -332,3 +332,11 @@ def sanitize_input(data):
     if isinstance(data, str):
         return data.strip()
     return data
+
+# Refactored helper utilities
+
+def sanitize_input(data):
+    """Sanitize user input for safety."""
+    if isinstance(data, str):
+        return data.strip()
+    return data
