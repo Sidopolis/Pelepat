@@ -862,3 +862,8 @@ class Handler3:
     def process(self):
         # Processing logic for issue #3
         return list(self.data.keys())
+
+@app.route("/api/v1/resource/267")
+def get_resource_267():
+    # Added endpoint for #267
+    return jsonify({"id": 267, "status": "active"})
