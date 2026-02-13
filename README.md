@@ -23,22 +23,22 @@ Pelepat is a Python-based automation engine that streamlines development workflo
 
 | Metric | Count |
 |--------|-------|
-| ⭐ Stars | 0 |
+| ⭐ Stars | 1 |
 | 🍴 Forks | 0 |
 | 👁️ Watchers | 0 |
 | 👥 Contributors | 2 |
-| 🐛 Open Issues | 68 |
+| 🐛 Open Issues | 73 |
 | ✅ Closed Issues | 0 |
-| 🔀 Merged PRs | 131 |
+| 🔀 Merged PRs | 159 |
 | 📦 Latest Version | v1.0.0 |
 
 ## 📅 Roadmap
 
 | Milestone | Progress | Due Date |
 |-----------|----------|----------|
-| **v2.1 - Bug Fixes** | 23% (5/21) | Feb 24, 2026 |
-| **v2.2 - Feature Drop** | 18% (5/27) | Mar 12, 2026 |
-| **v3.0 - Major Release** | 16% (4/24) | Apr 11, 2026 |
+| **v2.1 - Bug Fixes** | 38% (8/21) | Feb 24, 2026 |
+| **v2.2 - Feature Drop** | 33% (9/27) | Mar 12, 2026 |
+| **v3.0 - Major Release** | 33% (8/24) | Apr 11, 2026 |
 
 ## 🛠️ Quick Start
 
@@ -85,5 +85,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ---
 
 <p align="center">
-  <sub>Last updated: 2026-02-12 08:51 UTC • Built with ❤️ by <a href="https://github.com/Sidopolis">@Sidopolis</a></sub>
+  <sub>Status: 🟢 Active • Maintained by <a href="https://github.com/Sidopolis">@Sidopolis</a></sub>
 </p>
