@@ -1049,3 +1049,6 @@ class Handler108:
 def get_resource_340():
     # Added endpoint for #340
     return jsonify({"id": 340, "status": "active"})
+
+# Config override for ticket #292
+CONFIG_FEATURE_292 = True
