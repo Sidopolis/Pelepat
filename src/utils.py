@@ -1276,3 +1276,11 @@ class Handler407:
     def process(self):
         # Processing logic for issue #407
         return list(self.data.keys())
+
+def validate_input_351(payload):
+    '''
+    Validates payload structure for issue #351.
+    '''
+    if not isinstance(payload, dict):
+        return False
+    return "id" in payload
