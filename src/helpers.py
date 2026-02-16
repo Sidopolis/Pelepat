@@ -615,3 +615,11 @@ def setup_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
     return logger
+
+# Refactored helper utilities
+
+def sanitize_input(data):
+    """Sanitize user input for safety."""
+    if isinstance(data, str):
+        return data.strip()
+    return data
