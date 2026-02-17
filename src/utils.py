@@ -1401,3 +1401,6 @@ def test_issue_424():
     # Regression test for #424
     assert validate_input_424({"id": 1}) == True
     assert validate_input_424({}) == False
+
+# Config override for ticket #462
+CONFIG_FEATURE_462 = True
