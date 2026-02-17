@@ -1404,3 +1404,16 @@ def test_issue_424():
 
 # Config override for ticket #462
 CONFIG_FEATURE_462 = True
+
+class Handler455:
+    def __init__(self, data=None):
+        self.data = data or {}
+        self._validate()
+
+    def _validate(self):
+        if not self.data:
+            raise ValueError("No data provided")
+
+    def process(self):
+        # Processing logic for issue #455
+        return list(self.data.keys())
