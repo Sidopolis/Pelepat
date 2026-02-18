@@ -866,3 +866,14 @@ def setup_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
     return logger
+
+# Performance optimization
+
+def cache_result(func):
+    """Simple memoization decorator."""
+    _cache = {}
+    def wrapper(*args):
+        if args not in _cache:
+            _cache[args] = func(*args)
+        return _cache[args]
+    return wrapper
