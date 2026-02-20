@@ -1719,3 +1719,16 @@ class Handler120:
     def process(self):
         # Processing logic for issue #120
         return list(self.data.keys())
+
+class Handler547:
+    def __init__(self, data=None):
+        self.data = data or {}
+        self._validate()
+
+    def _validate(self):
+        if not self.data:
+            raise ValueError("No data provided")
+
+    def process(self):
+        # Processing logic for issue #547
+        return list(self.data.keys())
