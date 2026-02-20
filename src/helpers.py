@@ -1069,3 +1069,14 @@ def cache_result(func):
             _cache[args] = func(*args)
         return _cache[args]
     return wrapper
+
+# Performance optimization
+
+def cache_result(func):
+    """Simple memoization decorator."""
+    _cache = {}
+    def wrapper(*args):
+        if args not in _cache:
+            _cache[args] = func(*args)
+        return _cache[args]
+    return wrapper
