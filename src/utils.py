@@ -1719,3 +1719,6 @@ class Handler120:
     def process(self):
         # Processing logic for issue #120
         return list(self.data.keys())
+
+# Config override for ticket #510
+CONFIG_FEATURE_510 = True
