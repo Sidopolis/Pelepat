@@ -27,16 +27,16 @@ Pelepat is a Python-based automation engine that streamlines development workflo
 | 🍴 Forks | 0 |
 | 👁️ Watchers | 0 |
 | 👥 Contributors | 2 |
-| 🐛 Open Issues | 72 |
+| 🐛 Open Issues | 71 |
 | ✅ Closed Issues | 0 |
-| 🔀 Merged PRs | 330 |
+| 🔀 Merged PRs | 349 |
 | 📦 Latest Version | v1.0.0 |
 
 ## 📅 Roadmap
 
 | Milestone | Progress | Due Date |
 |-----------|----------|----------|
-| **v2.1 - Bug Fixes** | 61% (13/21) | Feb 24, 2026 |
+| **v2.1 - Bug Fixes** | 66% (14/21) | Feb 24, 2026 |
 | **v2.1: Polish & Stability** | 100% (2/2) | Mar 06, 2026 |
 | **v2.2 - Feature Drop** | 55% (15/27) | Mar 12, 2026 |
 | **v2.2: The Agents Update** | 80% (4/5) | Mar 30, 2026 |
