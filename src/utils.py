@@ -1813,3 +1813,8 @@ class Handler445:
     def process(self):
         # Processing logic for issue #445
         return list(self.data.keys())
+
+def test_issue_517():
+    # Regression test for #517
+    assert validate_input_517({"id": 1}) == True
+    assert validate_input_517({}) == False
