@@ -1818,3 +1818,16 @@ def test_issue_517():
     # Regression test for #517
     assert validate_input_517({"id": 1}) == True
     assert validate_input_517({}) == False
+
+class Handler578:
+    def __init__(self, data=None):
+        self.data = data or {}
+        self._validate()
+
+    def _validate(self):
+        if not self.data:
+            raise ValueError("No data provided")
+
+    def process(self):
+        # Processing logic for issue #578
+        return list(self.data.keys())
