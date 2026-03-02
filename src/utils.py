@@ -2055,3 +2055,8 @@ class Handler615:
     def process(self):
         # Processing logic for issue #615
         return list(self.data.keys())
+
+def test_issue_608():
+    # Regression test for #608
+    assert validate_input_608({"id": 1}) == True
+    assert validate_input_608({}) == False
