@@ -27,7 +27,7 @@ Pelepat is a Python-based automation engine that streamlines development workflo
 | 🍴 Forks | 0 |
 | 👁️ Watchers | 0 |
 | 👥 Contributors | 2 |
-| 🐛 Open Issues | 334 |
+| 🐛 Open Issues | 335 |
 | ✅ Closed Issues | 1 |
 | 🔀 Merged PRs | 481 |
 | 📦 Latest Version | v1.0.0 |
